@@ -83,7 +83,7 @@ cd your-repo-name
 ### 2. Install dependencies
 
 npm install
-# or
+or
 yarn install
 
 ---
@@ -108,10 +108,25 @@ CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
 ### 4. Run the development server
 npm run dev
-# or
+or
 yarn dev
 
 ---
+
+## 🚀 Deployment
+
+The project is deployed on Vercel.
+To deploy your own version:
+
+1. Push the repo to GitHub
+
+2. Import the repo into Vercel
+
+3. Add environment variables in Vercel dashboard
+
+4. Deploy 🎉
+
+## 👨‍💻 Built with ❤️ using Next.js, Clerk, Inngest, MongoDB, and Cloudinary
 
 
 
