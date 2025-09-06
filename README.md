@@ -71,10 +71,49 @@ The project uses **MongoDB** for data storage and **Cloudinary** for product ima
 
 ---
 
-## 📂 Project Structure
+## ⚙️ Installation & Setup
 
-git add README.md
-git commit -m "Added project README"
-git push origin main
+### 1. Clone the repository
+
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+
+---
+
+### 2. Install dependencies
+
+npm install
+# or
+yarn install
+
+---
+
+### 3. Create a .env.local file in the root directory
+#### MongoDB
+MONGODB_URI=your_mongodb_connection_string
+
+####  Clerk
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+CLERK_SECRET_KEY=your_clerk_secret_key
+
+#### Inngest
+INNGEST_EVENT_KEY=your_inngest_key
+
+#### Cloudinary
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+
+---
+
+### 4. Run the development server
+npm run dev
+# or
+yarn dev
+
+---
+
+
+
 
 
