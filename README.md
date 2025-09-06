@@ -35,4 +35,29 @@ The project uses **MongoDB** for data storage and **Cloudinary** for product ima
 ---
 
 ## 📂 Project Structure
+├── app/ # Next.js app directory
+│ ├── (auth)/ # Clerk authentication pages
+│ ├── (store)/ # Storefront pages
+│ ├── (admin)/ # Admin dashboard
+│ └── api/ # API routes (products, orders, webhooks)
+├── components/ # Reusable UI components
+├── lib/ # DB connection, helpers
+├── models/ # Mongoose models (User, Product, Order)
+├── public/ # Static assets
+├── styles/ # Global styles
+└── utils/ # Utility functions
+
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+2. Install dependencies
+npm install
+# or
+yarn install
 
